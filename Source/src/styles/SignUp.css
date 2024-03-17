@@ -1,0 +1,348 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+    background: linear-gradient(50deg, #ffffff 0%, #f2f2f2 100%);
+    background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/anh-background-nha-dep-cho-teams_013005584.png');
+    /* Đường dẫn đến ảnh nền */
+    background-size: cover;
+    /* Đảm bảo ảnh nền sẽ được hiển thị đầy đủ trên màn hình */
+    background-position: center;
+    /* Canh giữa ảnh nền */
+    background-repeat: no-repeat;
+    /* Không lặp lại ảnh nền */
+    padding: 20px;
+    margin: 2em auto;
+    border-radius: 10px;
+    max-width: 1170px;
+    box-sizing: border-box;
+}
+
+.signup-grid select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('https://th.bing.com/th/id/OIP.oO5xqBC2Q69_HMxV84AW4AAAAA?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.signup-title {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.signup-form {
+    width: 100%;
+    max-width: 320px;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.signup-grid input {
+    width: 100%;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 1px solid #a0a4a9;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: #495057;
+}
+
+.signup-grid input:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.signup-checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.signup-submit {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.signup-submit:hover {
+    background-color: #23272b;
+    transform: translateY(-3px);
+}
+
+.signup-footer {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.signup-footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.signup-footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.signup-copy {
+    margin-top: 2em;
+    font-size: 0.8em;
+    color: #6c757d;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .signup-container {
+        margin: 1em;
+    }
+
+    .signup-form {
+        padding: 1em;
+        margin: 0 20px;
+    }
+
+    .signup-title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-form {
+        margin: 0 10px;
+    }
+
+    .signup-title,
+    .signup-footer,
+    .signup-copy {
+        text-align: center;
+    }
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+    background: url('https://images.squarespace-cdn.com/content/v1/52549e41e4b0fcffc5b76e40/1558161527213-RLL0AWBNC8VH8SKNF5D4/(8).jpg') no-repeat center center/cover;
+    padding: 20px;
+    margin: 2em auto;
+    border-radius: 10px;
+    max-width: 1170px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+
+.signup-grid select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 15px;
+    appearance: none;
+    background-image: url('https://th.bing.com/th/id/OIP.oO5xqBC2Q69_HMxV84AW4AAAAA'), linear-gradient(to bottom, #ffffff, #f8f9fa);
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 20px auto, 100% 100%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.signup-grid select:hover {
+    border-color: #aaa;
+}
+
+.signup-grid select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.3rem rgba(0, 123, 255, 0.5);
+}
+
+.signup-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form {
+    width: 90%;
+    max-width: 360px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+
+.signup-grid input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 2px solid #b0b4b9;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #495057;
+    transition: border-color 0.25s ease-in-out;
+    height: 50%;
+}
+
+.signup-grid input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.3rem rgba(0, 123, 255, 0.5);
+}
+
+.signup-checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.signup-checkbox-label:hover {
+    color: #007bff;
+}
+
+
+.signup-submit {
+    width: 100%;
+    height: 50%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: bold;
+    margin-top: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-submit:hover,
+.signup-submit:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.signup-footer {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.signup-footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.signup-footer a:hover,
+.signup-footer a:focus {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.signup-copy {
+    margin-top: 2em;
+    font-size: 0.8em;
+    color: #6c757d;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .signup-container {
+        margin: 1em;
+        border-radius: 8px;
+    }
+
+    .signup-form {
+        padding: 1.5em;
+        margin: 0 20px;
+    }
+
+    .signup-title {
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        margin: 0.5em;
+    }
+
+    .signup-form {
+        margin: 0 15px;
+        padding: 1em;
+    }
+
+    .signup-title,
+    .signup-footer,
+    .signup-copy {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .signup-grid select,
+    .signup-grid input {
+        padding: 10px 12px;
+    }
+}
